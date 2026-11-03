@@ -194,5 +194,15 @@ xq999@xq999-virtual-machine:~/imx6ull/linux-bringup$ git remote -v
 origin	git@github.com:llll999qx/linux-bringup.git (fetch)
 origin	git@github.com:llll999qx/linux-bringup.git (push)
 
-
-
+```bash
+git add "docs/git和ssh密钥.md"
+git commit -m "添加 Git 和 SSH 密钥学习笔记"
+git push
+```
+- **`add`**：选中这份笔记，准备提交。
+- **`commit`**：在本地创建一条包含它的版本记录。
+- **`push`**：上传到当前关联的 GitHub 仓库。
+```bash
+git log --oneline
+```
+它会列出**当前分支的提交历史，最新的在最上面**
